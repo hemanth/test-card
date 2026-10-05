@@ -1,6 +1,6 @@
 {
   "name": "test-card",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Credit, Debit &amp; Prepaid cards for testing.",
   "license": "MIT",
   "repository": "hemanth/test-card",
@@ -13,7 +13,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "ava"
   },
   "files": [
     "index.js"
@@ -27,7 +27,6 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "ava": "^0.17.0",
-    "xo": "^0.17.0"
+    "ava": "^8.0.1"
   }
 }
